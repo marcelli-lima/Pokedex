@@ -1,4 +1,4 @@
-.pokemon {
+/* .pokemon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -8,4 +8,16 @@
   margin: 10px 10px;
   border: 1px gray solid;
   border-radius: 10px;
+} */
+
+.pokemon {
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  margin: 10px;
+  min-width: 25%;
+  padding: 5px 20px;
 }
